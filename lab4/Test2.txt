@@ -1,0 +1,6 @@
+START
+abc def
+ghi
+
+jklmmnnnooprqus
+FINISH
