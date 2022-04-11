@@ -78,7 +78,7 @@ void detectError(string data, string key)
 		temp = rem;
 	}
 	// If remainder is 0, then there is no error in the message transmitted
-	if (rem != "0000")
+	if (stoi(rem)!=0)
 		cout << "Error detected! Message has been corrupted." << endl;
 	// Otherwise there is some error in the data received
 	else
